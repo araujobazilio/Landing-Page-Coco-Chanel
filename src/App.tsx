@@ -71,7 +71,27 @@ function App() {
                   className="h-64 object-contain mb-3" 
                 />
                 <p className="text-gray-700 font-medium">Embalagem Premium</p>
-                <p className="text-sm text-gray-500">Proteção e Elegância</p>
+                <p className="text-sm text-gray-500">Caixa Original</p>
+              </div>
+            </div>
+            
+            {/* Vídeo do YouTube */}
+            <div className="mt-10 flex justify-center">
+              <div className="bg-white rounded-2xl shadow-xl p-4 border border-amber-200">
+                <h4 className="text-lg font-semibold text-center mb-4 text-amber-800">Veja o Produto em Ação</h4>
+                <div className="relative overflow-hidden rounded-xl">
+                  <iframe 
+                    width="356" 
+                    height="634" 
+                    src="https://www.youtube.com/embed/YSnELABhbSo" 
+                    title="26 de julho de 2025" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" 
+                    allowFullScreen
+                    className="mx-auto"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>
